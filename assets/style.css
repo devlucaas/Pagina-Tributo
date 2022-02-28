@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+::-webkit-scrollbar{
+    width: 14px;
+}
+::-webkit-scrollbar-track{
+    background: #fff;
+}
+::-webkit-scrollbar-thumb{
+    background: #7c7c7c;
+    border-radius: 30px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: auto;
+    height: 100vh; 
+    background-color: #7c7c7c;
+    border-left: 35vw solid white;
+    border-right: 35vw solid white;
+    border-bottom: 10vh solid white;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 22px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 10px 0 10px 0;
+}
+.subtitulo{
+    margin-top: 40px;
+}
+
+.imagem_tributo{
+    display: flex;
+    padding-top: 40px;
+}
+
+.imagem_tributo img {
+    width: 98%;
+    border-radius: 15px;
+}
+
+figure {
+    width: 300px;
+}
+figcaption{
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+}
+.history{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.history-section{
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    background-color: #7c7c7c;
+    width: 45vw;
+    height: auto;
+}
+
+.history h2{
+    padding-top: 50px;
+}
+
+.history p{
+    padding: 50px 120px 0 120px;
+    text-align: justify;
+    margin-bottom: 70px;
+}
+p{
+    padding: 50px 120px 0 120px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+p::first-letter{
+    font-size: 250%;
+    float: left;
+    margin-right: 8px;
+    padding: 6px 3px;
+    box-shadow: 3px 3px 0 white;
+    background-color: black;
+    color: white;
+}
+
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 100vh; 
+    background-color: white;
+    width: 50vw;
+}
+.company{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-company{
+    display: flex;
+    flex-direction: column;
+    background-color: #7c7c7c;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 45vw;
+}
+
+.garage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 50vw;
+}
